@@ -1,0 +1,1 @@
+docker exec -i some-mysql sh -c 'exec mysql -uroot -p"my-secret-pw" database' < ./schema.sql
